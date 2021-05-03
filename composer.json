@@ -1,5 +1,5 @@
 {
-    "name": "aidensv/youtube",
+    "name": "terrylaire/youtube",
     "description": "Upload a video to YouTube with Laravel 5.",
     "license": "MIT",
     "authors": [
@@ -20,22 +20,22 @@
     },
     "autoload": {
         "psr-4": {
-            "aidensv\\Youtube\\": "src/"
+            "terrylaire\\Youtube\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "aidensv\\Youtube\\Tests\\": "tests/"
+            "terrylaire\\Youtube\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "aidensv\\Youtube\\YoutubeServiceProvider"
+                "terrylaire\\Youtube\\YoutubeServiceProvider"
             ],
             "aliases": {
-                "Youtube": "aidensv\\Youtube\\Facades\\Youtube"
+                "Youtube": "terrylaire\\Youtube\\Facades\\Youtube"
             }
         }
     }
