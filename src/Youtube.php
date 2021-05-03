@@ -1,6 +1,6 @@
 <?php
 
-namespace aidensv\Youtube;
+namespace terrylaire\Youtube;
 
 use Exception;
 use Google_Client;
